@@ -10,10 +10,14 @@ public void doThis()
 	System.out.println("I am here");
 	System.out.println("I am here2");
 	System.out.println("I am here3");
+	System.out.println("I am here4");
+	System.out.println("I am here5");
+	System.out.println("I am here6");
 	}
 @BeforeMethod
 public void beforeRun()
 {
+	System.out.println("run me first");
 	System.out.println("run me first");
 }
 
