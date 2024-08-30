@@ -1,5 +1,6 @@
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Test;
 
 public class PS {
 
@@ -26,5 +27,10 @@ public void afterRun()
 {
 	System.out.println("run me last"); 
 }
-
+@Test
+public void Sunshine()
+{
+	System.out.println("Sunny Day");
+	System.out.println("cloudy day");
+}
 }

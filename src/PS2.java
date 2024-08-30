@@ -1,3 +1,4 @@
+import org.testng.annotations.Test;
 
 public class PS2 extends PS3 {
 int a; //this is called class variable-global class variable
@@ -25,5 +26,10 @@ public PS2(int a) {//int a is called as instance variable
 	{
 		a=a-1;
 		return a;
+	}
+	@Test
+	public void windyDay()
+	{
+		System.out.println("It is a windy day");
 	}
 }

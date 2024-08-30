@@ -1,3 +1,4 @@
+import org.testng.annotations.Test;
 
 public class PS3 {
 	
@@ -24,6 +25,13 @@ public class PS3 {
 		
 		
 	}
+	@Test
+	public void beautifulDay()
+	{
+		System.out.println("It is a beautiful day");
+	}
+	
+	
 	
 	
 

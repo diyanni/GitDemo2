@@ -17,8 +17,15 @@ public class PS1 extends PS {
 	  System.out.println(ps2.decrement());
 	  System.out.println(ps2.multiplyTwo());
 	  System.out.println(ps2.multiplyThree());
+	  System.out.println("hello");
+	  System.out.println("hello world");
+	  System.out.println("welcome");
 	}
-
+@Test
+public void rainyDay() 
+{
+	System.out.println("It is rainy day");
+}
 }
 //here we not done it explicitly of initializing an object and calling the constructor but
 //we have used the keyword Super to invoke the parent constructor in PS3 into PS2
