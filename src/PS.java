@@ -33,6 +33,7 @@ public void Sunshine()
 	System.out.println("Sunny Day");
 	System.out.println("cloudy day");
 	System.out.println("cloudy day");
+	System.out.println("cloudy day");
 }
 
 }
